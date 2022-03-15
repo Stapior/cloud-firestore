@@ -1,0 +1,47 @@
+.note {
+  background-color: rgb(255, 246, 220);
+  position: relative;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1em;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px 10px 0 0;
+}
+
+.note_toolbar {
+  background: #eed023;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 10px;
+}
+
+.footer {
+  min-height: 30px;
+
+}
+
+.close {
+  top: 5px;
+  cursor: pointer;
+  color: black;
+  position: relative;
+}
+
+.content {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  padding: 5px;
+  outline: none;
+  height: 150px;
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: x-large;
+  outline: none;
+}
